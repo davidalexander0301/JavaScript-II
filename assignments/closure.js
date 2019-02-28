@@ -1,5 +1,12 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function makeClosure() {
+  return "Closure";
+    function logClosure() {
+      console.log(makeClosure());
+    }
+    logClosure();
+  }
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
